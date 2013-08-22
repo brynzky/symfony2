@@ -2853,6 +2853,7 @@ class appDevDebugProjectContainer extends Container
         $instance->addPath('/Users/brynzky/Sites/xcode2/vendor/symfony/swiftmailer-bundle/Symfony/Bundle/SwiftmailerBundle/Resources/views', 'Swiftmailer');
         $instance->addPath('/Users/brynzky/Sites/xcode2/vendor/doctrine/doctrine-bundle/Doctrine/Bundle/DoctrineBundle/Resources/views', 'Doctrine');
         $instance->addPath('/Users/brynzky/Sites/xcode2/src/Acme/HelloBundle/Resources/views', 'AcmeHello');
+        $instance->addPath('/Users/brynzky/Sites/xcode2/src/Soften/WebBundle/Resources/views', 'SoftenWeb');
         $instance->addPath('/Users/brynzky/Sites/xcode2/src/Acme/DemoBundle/Resources/views', 'AcmeDemo');
         $instance->addPath('/Users/brynzky/Sites/xcode2/vendor/symfony/symfony/src/Symfony/Bundle/WebProfilerBundle/Resources/views', 'WebProfiler');
         $instance->addPath('/Users/brynzky/Sites/xcode2/vendor/sensio/distribution-bundle/Sensio/Bundle/DistributionBundle/Resources/views', 'SensioDistribution');
@@ -3344,6 +3345,7 @@ class appDevDebugProjectContainer extends Container
                 'DoctrineBundle' => 'Doctrine\\Bundle\\DoctrineBundle\\DoctrineBundle',
                 'SensioFrameworkExtraBundle' => 'Sensio\\Bundle\\FrameworkExtraBundle\\SensioFrameworkExtraBundle',
                 'AcmeHelloBundle' => 'Acme\\HelloBundle\\AcmeHelloBundle',
+                'SoftenWebBundle' => 'Soften\\WebBundle\\SoftenWebBundle',
                 'AcmeDemoBundle' => 'Acme\\DemoBundle\\AcmeDemoBundle',
                 'WebProfilerBundle' => 'Symfony\\Bundle\\WebProfilerBundle\\WebProfilerBundle',
                 'SensioDistributionBundle' => 'Sensio\\Bundle\\DistributionBundle\\SensioDistributionBundle',

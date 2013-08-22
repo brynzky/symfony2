@@ -1,0 +1,15 @@
+soften_web_homepage:
+    pattern:  /hello/{name}
+    defaults: { _controller: SoftenWebBundle:Default:index }
+
+soften_web_personel:
+    pattern: /personel
+    defaults: { _controller: SoftenWebBundle:Personel:index }
+
+soften_web_personel_view:
+    pattern: /personel/{id}
+    defaults: { _controller: SoftenWebBundle:Personel:viewPersonel }
+
+soften_web_personel_all:
+    pattern: /personel/all
+    defaults: { _controller: SoftenWebBundle:Personel:allPersonel }
